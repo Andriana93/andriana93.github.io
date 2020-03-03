@@ -11,7 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 p {
-  color: #8f8f8f
+  color: #8f8f8f;
+  font-size: 1.2rem;
 }
 
 
@@ -23,7 +24,7 @@ p {
   font-weight: 900;
   line-height: 1.5;
   color: white;
-  padding: 10% 5% 5% 0%;
+  padding: 10% 5% 5% 10%;
 
 }
 
