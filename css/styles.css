@@ -92,7 +92,7 @@ p {
 
 /* Title image */
 .title-image {
-  width: 80%;
+  width: 70%;
   top: 5px;
   bottom: 5px;
   border-radius: 100%;
@@ -215,6 +215,10 @@ p {
     width: 100%;
     margin: 1% auto;
     padding: 1% auto;
+  }
+
+  p {
+    font-size: 2rem;
   }
 }
 
