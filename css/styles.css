@@ -209,7 +209,7 @@ p {
 
 /* Media Query */
 
-@media (max-width: 569px){
+@media (max-width: 900px){
 
   .embed-responsive {
     width: 100%;
@@ -224,7 +224,7 @@ p {
 
 
 
-@media (max-width: 1028px){
+@media (max-width: 900px){
 
   #title {
     text-align: center;
