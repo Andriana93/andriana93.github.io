@@ -222,7 +222,7 @@ p {
 
 /* Media Query */
 
-@media (max-width: 569px){
+/* @media (max-width: 569px){
 
   .embed-responsive {
     width: 100%;
@@ -234,7 +234,7 @@ p {
   font-size: 2rem;
 }
 
-}
+} */
 
 
 
@@ -244,8 +244,20 @@ p {
     text-align: center;
   }
 
+  p {
+  font-size: 2rem;
+}
+
   .title-image {
     position: static;
   }
+
+  .embed-responsive {
+    width: 100%;
+    margin: 1% auto;
+    padding: 1% auto;
+  }
+
+
 
 }
