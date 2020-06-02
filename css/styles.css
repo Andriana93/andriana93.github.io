@@ -105,8 +105,10 @@ p {
 /* Skills Section  */
 
 #skills {
-  padding: auto;
+  padding-bottom: 0;
+  padding-top: 5%;
   position: relative;
+  margin: auto;
 }
 
 
@@ -125,7 +127,7 @@ p {
 
 .skill-box {
   text-align: center;
-  padding: 4%;
+  padding-bottom: 4%;
 }
 
 .skill-title {
@@ -138,6 +140,48 @@ p {
 /* My Work Section */
 
 
+/* Coding Projects section */
+
+.coding-work-title {
+  background-color: #2a7886;
+  font-size: 3.5rem;
+  color: #eee;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+}
+
+.coding-box {
+  text-align: center;
+  padding: 2%;
+}
+
+.coding-box p {
+  padding-top: 5%;
+
+}
+
+.coding-box h3 {
+  font-size: 2rem;
+  color: #79bac1;
+  padding-bottom: 8%;
+}
+
+.coding-project-img {
+ height: 200px;
+ width: 300px;
+ border-radius: 18px;
+ object-fit: cover;
+
+}
+
+.coding-project-img:hover {
+  opacity: 0.5;
+}
+
+
+/* Video Work Section */
 
 #example-work {
   background-color: #79bac1;
