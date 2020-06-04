@@ -104,6 +104,8 @@ p {
 
 /* Skills Section  */
 
+
+
 #skills {
   padding-bottom: 0;
   padding-top: 5%;
@@ -147,14 +149,15 @@ p {
   font-size: 3.5rem;
   color: #eee;
   margin: auto;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 
 .coding-box {
   text-align: center;
-  padding: 2%;
+  padding: 1% 1%;
+ 
 }
 
 .coding-box p {
@@ -163,14 +166,15 @@ p {
 }
 
 .coding-box h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #79bac1;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 
 .coding-project-img {
- height: 200px;
- width: 300px;
+ height: 150px;
+ width: 250px;
  border-radius: 18px;
  object-fit: cover;
 
@@ -244,15 +248,16 @@ p {
 
 /* Footer Section */
 
-#footer {
+footer {
   background-color: white;
-  height: 180px;
-  padding: 2% 15% 2% 15%;
+  height: 150px;
+  padding: 2% 15% 4% 15%;
 }
 
-#footer .container-fluid {
-  padding: 0;
+footer p {
+  font-size: 1rem;
 }
+
 
 .f-icon {
   font-size: 2.5rem;
@@ -276,10 +281,6 @@ p {
     text-align: center;
   }
 
-  p {
-  font-size: 2rem;
-}
-
   .title-image {
     position: static;
   }
@@ -288,6 +289,17 @@ p {
     width: 100%;
     margin: 1% auto;
     padding: 1% auto;
+  }
+
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .coding-box p {
+    padding-left: 10%;
+    padding-right: 10%;
+  
   }
 
 
